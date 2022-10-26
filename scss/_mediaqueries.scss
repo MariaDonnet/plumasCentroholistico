@@ -1,0 +1,79 @@
+/* MEDIA QUERIES */
+
+/* INDEX - RESPONSIVE */
+
+@media (max-width: 576px) {
+    nav .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .titulogral {
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .main1__h1 {
+        font-size: 1rem;
+    }
+
+    .main_index {
+        margin: auto;
+        text-align: justify;
+    }
+
+    .p-main {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-left: 0!important;
+    }
+}
+
+/* SOBRE MI - RESPONSIVE */
+
+@media (max-width: 576px) { 
+    .img_sobremi {
+        display: none;
+    }
+
+    .h2_sobremi {
+        text-align: start;
+        margin-top: -5rem;
+    }
+
+    .h2_sobremi1 {
+        margin-top: 0.5rem;
+    }
+
+    .main-sobremi1 {
+        padding-left: none;
+    }
+
+    .main-sobremi2 {
+        padding-right: none;
+    }
+}
+
+@media (max-width: 990px) { 
+
+    .img_sobremi2 {
+        display: none;
+    }
+}
+
+/* CONTACTO - RESPONSIVE */
+
+@media (max-width: 500px) {
+    .input-form {
+        width: 100%;
+        justify-self: center;
+    }
+
+    .textarea-form {
+        width: 100%;
+    }
+}

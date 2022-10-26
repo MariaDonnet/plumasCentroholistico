@@ -1,0 +1,24 @@
+.contenedor__galeria {
+    max-width: 100%;
+    margin: 5% auto;
+    padding: 5px;
+    }
+    
+.lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lightbox-gallery div > img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    overflow: hidden;
+}
+
+.lightbox-gallery div {
+    margin: 5px;
+    flex-basis: 400px;
+}

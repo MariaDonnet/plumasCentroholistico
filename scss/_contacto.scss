@@ -1,0 +1,20 @@
+.form {
+    width: 80%;
+    border: 1px solid #2b2b2b;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+iframe{
+    padding-top: 20px;
+    display: block;
+    margin:auto;
+}

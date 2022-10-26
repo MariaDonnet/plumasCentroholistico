@@ -1,0 +1,31 @@
+/* VARIABLES */
+
+/* MIXIN */
+@mixin sizes ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.img_sobremi {
+    @include sizes (25rem, 30rem)
+}
+
+/* MAPS */
+$fondo: (
+    navegador: #2b2b2b,
+    cuerpo: #EDD1D1ff,
+    pie: #2b2b2b
+);
+
+@each $col, $fondo in $fondo {
+    .backcolor--#{$col} {
+        background-color: $fondo;
+    }
+}
+
+/* MAP GET */
+$estilo: (
+    tamaño: 2rem,
+    color: #f9f9f9,
+    margin: 1rem
+);
