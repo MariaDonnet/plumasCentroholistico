@@ -1,6 +1,6 @@
 /* MEDIA QUERIES */
 
-/* INDEX - RESPONSIVE */
+/* INDEX */
 
 @media (max-width: 576px) {
     nav .logo {
@@ -8,7 +8,7 @@
         height: 50px;
     }
 
-    .titulogral {
+    .titulo {
         text-align: center;
     }
 
@@ -23,7 +23,6 @@
     .main_index {
         margin: auto;
         text-align: justify;
-    }
 
     .p-main {
         width: 100%;
@@ -32,40 +31,34 @@
         margin-left: 0!important;
     }
 }
+}
 
-/* SOBRE MI - RESPONSIVE */
+/*SERVICIOS*/ 
+@media (max-width: 990px) {
+    .card{
+        margin-bottom: 50px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .card{
+        margin-bottom: 30px;
+    }
+}
+/*GALERIA*/
+
+/* SOBRE MI  */
 
 @media (max-width: 576px) { 
-    .img_sobremi {
-        display: none;
-    }
-
     .h2_sobremi {
         text-align: start;
-        margin-top: -5rem;
-    }
-
-    .h2_sobremi1 {
-        margin-top: 0.5rem;
-    }
-
-    .main-sobremi1 {
-        padding-left: none;
-    }
-
-    .main-sobremi2 {
-        padding-right: none;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 }
 
-@media (max-width: 990px) { 
-
-    .img_sobremi2 {
-        display: none;
-    }
-}
-
-/* CONTACTO - RESPONSIVE */
+/* CONTACTO */
 
 @media (max-width: 500px) {
     .input-form {

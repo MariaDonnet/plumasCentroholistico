@@ -1,10 +1,10 @@
 /* MEDIA QUERIES */
-/* INDEX - RESPONSIVE */
+/* INDEX */
 @media (max-width: 576px) {
   nav .logo {
     width: 50px;
     height: 50px; }
-  .titulogral {
+  .titulo {
     text-align: center; }
   footer {
     height: auto; }
@@ -13,31 +13,30 @@
   .main_index {
     margin: auto;
     text-align: justify; }
-  .p-main {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin-left: 0 !important; } }
+    .main_index .p-main {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin-left: 0 !important; } }
 
-/* SOBRE MI - RESPONSIVE */
+/*SERVICIOS*/
+@media (max-width: 990px) {
+  .card {
+    margin-bottom: 50px; } }
+
 @media (max-width: 576px) {
-  .img_sobremi {
-    display: none; }
+  .card {
+    margin-bottom: 30px; } }
+
+/*GALERIA*/
+/* SOBRE MI  */
+@media (max-width: 576px) {
   .h2_sobremi {
     text-align: start;
-    margin-top: -5rem; }
-  .h2_sobremi1 {
-    margin-top: 0.5rem; }
-  .main-sobremi1 {
-    padding-left: none; }
-  .main-sobremi2 {
-    padding-right: none; } }
+    padding-top: 5rem;
+    padding-bottom: 5rem; } }
 
-@media (max-width: 990px) {
-  .img_sobremi2 {
-    display: none; } }
-
-/* CONTACTO - RESPONSIVE */
+/* CONTACTO */
 @media (max-width: 500px) {
   .input-form {
     width: 100%;
@@ -46,40 +45,10 @@
     width: 100%; } }
 
 /* VARIABLES */
-/* MIXIN */
-.img_sobremi {
-  width: 25rem;
-  height: 30rem; }
-
 /* MAPS */
-.backcolor--navegador {
-  background-color: #2b2b2b; }
-
-.backcolor--cuerpo {
-  background-color: #EDD1D1ff; }
-
-.backcolor--pie {
-  background-color: #2b2b2b; }
-
-/* MAP GET */
 /* GENERALES */
 /* VARIABLES */
-/* MIXIN */
-.img_sobremi {
-  width: 25rem;
-  height: 30rem; }
-
 /* MAPS */
-.backcolor--navegador {
-  background-color: #2b2b2b; }
-
-.backcolor--cuerpo {
-  background-color: #EDD1D1ff; }
-
-.backcolor--pie {
-  background-color: #2b2b2b; }
-
-/* MAP GET */
 /*RESETEO*/
 * {
   margin: 0;
@@ -125,7 +94,7 @@ body {
 .barra {
   display: block;
   border: #A7073C 0.1rem solid;
-  width: 80%;
+  width: 40%;
   height: 0rem;
   margin-left: auto;
   margin-right: auto;
@@ -153,7 +122,7 @@ body {
     right: 0;
     bottom: 0; }
   .footer__flex img {
-    width: 30px;
+    width: 32px;
     display: block; }
 
 /* INDEX */
@@ -182,6 +151,14 @@ body {
 span {
   font-weight: bold; }
 
+/*SERVICIOS*/
+.card {
+  background-color: #EDD1D1ff; }
+
+.card-img-top {
+  margin-top: 10px; }
+
+/*GALERIA*/
 .contenedor__galeria {
   max-width: 100%;
   margin: 5% auto;
@@ -224,6 +201,7 @@ span {
       line-height: 1.5;
       margin-bottom: 0.5rem; }
 
+/*CONTACTO*/
 .form {
   width: 80%;
   border: 1px solid #2b2b2b;
