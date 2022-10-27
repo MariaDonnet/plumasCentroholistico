@@ -200,11 +200,11 @@ span {
       line-height: 1.5;
       margin-bottom: 0.5rem; }
 
-.row {
+.main-article {
   display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  flex-wrap: wrap; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .img-fluid {
   width: 100%;
