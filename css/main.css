@@ -28,7 +28,6 @@
   .card {
     margin-bottom: 30px; } }
 
-/*GALERIA*/
 /* SOBRE MI  */
 @media (max-width: 576px) {
   .h2_sobremi {
@@ -200,6 +199,16 @@ span {
       font-weight: 300;
       line-height: 1.5;
       margin-bottom: 0.5rem; }
+
+.row {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.img-fluid {
+  width: 100%;
+  height: 100%; }
 
 /*CONTACTO*/
 .form {

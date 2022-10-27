@@ -1,25 +1,36 @@
 /* SOBRE MI */
-
 .mainc-sobremi {
     margin-top: 2rem;
     margin-bottom: 2rem;
     .main1-sobremi {
         padding: 1rem;
     }
-        .main-sobremi {
-            width: 53rem;
-            height: auto;
-            text-align: justify;
-            color: #000000;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            .h2_sobremi {
-                color: #A7073C;
-                font-size: 2rem;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 300;
-                line-height: 1.5;
-                margin-bottom: 0.5rem;
-            }
+    .main-sobremi {
+        width: 53rem;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        .h2_sobremi {
+            color: #A7073C;
+            font-size: 2rem;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 300;
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
     }
+}
+
+.row{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
 }
